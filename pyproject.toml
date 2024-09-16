@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "barbearia"
+version = "0.1.0"
+description = ""
+authors = ["Marco Antonio Rodrigues Gomes de Souza <94053824+Marco-Antonio-Rodrigues@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ruff = "^0.6.5"
+psycopg2 = "^2.9.9"
+python-dotenv = "^1.0.1"
+flask = "^3.0.3"
+flask-sqlalchemy = "^3.1.1"
+waitress = "^3.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
