@@ -42,8 +42,8 @@ class ProductionConfig(ConfigBase):
         self.SQLALCHEMY_DATABASE_URI = os.getenv("DATABASE_URL")
 
 
-class Config():
-    def __new__(cls,environment='default'):
+class Config:
+    def __new__(cls, environment="default"):
         config_classes = {
             "dev": DevelopmentConfig,
             "test": TestingConfig,
@@ -54,5 +54,3 @@ class Config():
         config_class = config_classes.get(environment)
         # Cria e retorna uma instância da classe de configuração selecionada
         return config_class()
-
-        

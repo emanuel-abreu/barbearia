@@ -58,7 +58,7 @@ A aplicação estará disponível localmente em `http://localhost:8000`.
 
 ## Banco de Dados
 
-Você pode inicializar o banco de dados executando o script SQL fornecido em ``script_database.sql``
+Você pode inicializar o banco de dados no pgAdmin executando o script SQL fornecido em ``script_database.sql``.
 
 ## Estrutura do Projeto
 
